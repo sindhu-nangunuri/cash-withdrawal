@@ -1,0 +1,93 @@
+/* Write your CSS here */
+.bg-container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+  font-family: 'Roboto';
+}
+.balance-card-container {
+  background-color: #150b3e;
+  width: 30%;
+  border-radius: 10px;
+  display: flex;
+  flex-direction: column;
+  margin-top: 20px;
+  padding-top: 30px;
+  padding-left: 25px;
+}
+.name-container {
+  display: flex;
+}
+.name-letter {
+  background-color: #c7d2fe;
+  color: #7c3aed;
+  text-align: center;
+  font-size: 18px;
+  width: 10%;
+  height: 60px;
+
+  border-radius: 100px;
+  padding-top: 18px;
+}
+.name {
+  color: #d4d2db;
+  padding-top: 15px;
+  padding-left: 15px;
+  font-size: 18px;
+  font-weight: 500;
+}
+.balance-container {
+  display: flex;
+  justify-content: space-between;
+}
+.balance {
+  color: #585076;
+  font-size: 30px;
+  font-weight: 600;
+}
+.amount {
+  color: #ffffff;
+  font-weight: 600;
+  font-size: 30px;
+  padding-right: 30px;
+}
+.rupees {
+  color: #585076;
+  font-weight: 600;
+}
+.withdraw-container {
+  display: flex;
+  flex-direction: column;
+}
+.withdraw {
+  color: #ffffff;
+  font-size: 24px;
+  font-weight: 400;
+}
+.choose-sum-text {
+  color: #585076;
+  font-size: 18px;
+  font-weight: 600;
+}
+.button-container {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-around;
+  margin-bottom: 30px;
+}
+.button {
+  width: 40%;
+  height: 40px;
+  color: #ffffff;
+  background-color: #382f5a;
+  border-radius: 5px;
+  border-style: solid;
+  border-color: #ffffff;
+  font-size: 25px;
+  cursor: pointer;
+  outline: none;
+}
+.button1 {
+  margin-bottom: 10px;
+}
